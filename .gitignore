@@ -3,3 +3,5 @@
 __pycache__/
 *.pyc
 .vscode/
+screenshots/
+capture_screenshots.py

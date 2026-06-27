@@ -4,6 +4,12 @@
 
 > **Learn by doing.** Write prompts, get graded by an AI examiner, revise, and level up — just like a video game for prompt engineering.
 
+<p align="center">
+  <img src="screenshots/main_app.png" alt="Prompt Doctor - Main Application" width="800">
+  <br>
+  <em>The two-panel layout: Prompt Editor (left) and Examiner Verdict (right)</em>
+</p>
+
 ---
 
 ## ✨ Features
@@ -27,6 +33,12 @@
 | 4 | **Chain-of-Thought** | Elicit step-by-step reasoning with multiple constraints |
 | 5 | **Guardrails** | Handle adversarial, manipulative, or out-of-scope inputs |
 
+<p align="center">
+  <img src="screenshots/levels_progression.png" alt="Level Progression" width="700">
+  <br>
+  <em>5 levels of escalating prompt engineering difficulty</em>
+</p>
+
 ---
 
 ## 🧭 Domains
@@ -40,6 +52,12 @@ Choose a domain that interests you:
 | ⚖️ **Legal** | Analyze legal questions, extract case details, classify contract clauses, handle disputes |
 | 💻 **Code Review** | Review code, extract bug reports, classify severity, debug complex issues |
 | 💰 **Finance** | Analyze financial queries, extract transactions, classify risk, handle investment scenarios |
+
+<p align="center">
+  <img src="screenshots/domains_overview.png" alt="Available Domains" width="600">
+  <br>
+  <em>5 domain tracks with level-specific tasks</em>
+</p>
 
 ---
 
@@ -96,6 +114,13 @@ The app will open in your default browser at `http://localhost:8501`.
 1. **Select a Domain** — Choose from Healthcare, Customer Support, Legal, Code Review, or Finance.
 2. **Enter Your Prompt** — Write a prompt in the editor on the left panel.
 3. **Submit for Evaluation** — Click the submit button to run your prompt and get it graded.
+
+<p align="center">
+  <img src="screenshots/app_with_prompt.png" alt="Prompt Doctor - With Prompt Entered" width="800">
+  <br>
+  <em>Enter your prompt, select a domain, and submit for evaluation</em>
+</p>
+
 4. **Review the Verdict** — The right panel shows:
    - ✅/❌ per principle (pass/fail)
    - 🗣️ Weakness quotes from your prompt
@@ -183,17 +208,3 @@ This project is provided for educational purposes. Feel free to use, modify, and
 ---
 
 *Prompt Doctor · A prompt engineering skills lab · Level up your prompting skills 🚀*
-
-   - Edit the `.env` file and replace the placeholder:
-     ```
-     OPENROUTER_API_KEY=sk-or-v1-...
-     ```
-   - Alternatively, enter your key in the app's **API Key Settings** section in the sidebar.
-
-### Running the App
-
-```bash
-streamlit run app.py
-```
-
-The app will open in your default browser at `http://localhost:8501`.
